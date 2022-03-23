@@ -1,0 +1,93 @@
+body {
+  background-color: #EEE;
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div h3 {
+  margin: 10px 0px;
+}
+
+.basic {
+  width: 360px;
+  height: 590px;
+}
+
+.f-field, .s-field,
+.t-field, .fo-field {
+  display: inline-block;
+  position: relative;
+}
+
+.f-field div:first-child {
+  width: 165px;
+  height: 282px;
+  background-color: tomato;
+  border: 5px solid #FFF;
+}
+
+.tomato {
+  width: 175px;
+  height: 95px;
+  background-color: white;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 20px;
+}
+
+/*            */
+
+.s-field div:first-child {
+  width: 165px;
+  height: 282px;
+  background-color: teal;
+  border: 5px solid #FFF;
+}
+
+.teal {
+  width: 175px;
+  height: 95px;
+  background-color: white;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 20px;
+}
+
+.t-field div:first-child {
+  width: 165px;
+  height: 282px;
+  background-color: burlywood;
+  border: 5px solid #FFF;
+}
+
+.burlywood {
+  width: 175px;
+  height: 95px;
+  background-color: white;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 20px;
+}
+
+.fo-field div:first-child {
+  width: 165px;
+  height: 282px;
+  background-color: thistle;
+  border: 5px solid #FFF;
+}
+
+.thistle {
+  width: 175px;
+  height: 95px;
+  background-color: white;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 20px;
+}
