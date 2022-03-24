@@ -1,0 +1,143 @@
+body {
+  margin: 30px;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.basic {
+  border: 4px solid #00C6AD;
+  padding: 50px;
+  width: 600px;
+}
+
+.title-field {
+  text-align: center;
+}
+
+.fa-xmark,
+.title-field__main-title {
+  display: inline-block;
+}
+
+.title-field__main-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.fa-xmark {
+  font-size: 34px;
+}
+
+.image-field {
+  display: flex;
+  margin: 60px 0px 50px 0px;
+}
+
+.image-field__image {
+  width: 225px;
+  height: 225px;
+  background-color: #FFBD11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #000;
+  border-radius: 10px;
+}
+
+.fa-image {
+  font-size: 100px;
+  color: white;
+}
+
+.image-field__title {
+  margin-top: 2px;
+  margin-left: 80px;
+}
+
+.image-field__title h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.image-field__title p {
+  margin-top: 60px;
+  font-weight: 600;
+}
+
+.button-field {
+  display: flex;
+}
+
+.button-field button {
+  background-color: white;
+  border-bottom-width: 7px ;
+}
+
+.button-field__play-btn {
+  border: 3px solid #000;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+}
+
+.button-field__heart-btn,
+.button-field__plus-btn {
+  border: 3px solid #000;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 50px;
+  font-weight: 100;
+  margin-left: 50px;
+}
+
+.music-list-field {
+  margin-top: 50px;
+  display: flex;
+}
+
+.music-list-field__color-field {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.music-list-field__text-field h1 {
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.music-list-field__text-field p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #555;
+}
+
+.music-list-field__mat {
+  background-color: #F85A2A;
+}
+
+.music-list-field__att {
+  background-color: #FF89BB;
+}
+
+.music-list-field__try {
+  background-color: #1946E5;
+}
+
+.music-list-field__sun {
+  background-color: #00C6AD;
+}
