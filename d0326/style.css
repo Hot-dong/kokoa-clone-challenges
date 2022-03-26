@@ -11,6 +11,10 @@ body {
   align-items: center;
 }
 
+.basic-field {
+  display: flex;
+}
+
 .list-view {
   display: inline-block;
   background-color: white;
@@ -30,4 +34,143 @@ body {
 
 .fa-arrow-left-long {
   margin-right: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__profile-image {
+  margin: 20px 0px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px gray;
+}
+
+.title__main-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.title__text {
+  opacity: 0.5;
+}
+
+.title__btn-field {
+  display: flex;
+  margin-top: 40px;
+}
+
+.shuffle,
+.heart {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shuffle {
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+
+.heart {
+  display: flex;
+  align-items: center;
+  border: 1px solid #DDD;
+}
+
+.fa-heart {
+  margin-right: 5px;
+}
+
+.list__music-list {
+  margin-top: 30px;
+  display: flex;
+}
+
+.list__music-list__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.list__music-list__title {
+  margin: 3px 0px 3px 7px;
+}
+
+.list__music-list__title__field {
+  display: flex;
+}
+
+.music-list__title__singer {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.music-list__title__sing {
+  width: 270px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+
+.ec {
+  opacity: 0.5;
+}
+
+.fa-chart-simple {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+
+.playing-this-music img {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+.playing-this-music {
+  position: relative;
+}
+
+.play-music {
+  margin-top: 20px;
+  color: white;
+  width: 350px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.play-music__title p:first-child {
+  opacity: 0.5;
+  margin: -5px 0px 5px 0px;
+}
+
+.play-music__title p:nth-child(2) {
+  font-weight: 600;
+}
+
+.play-music__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.play-music__icons i:nth-child(2) {
+  font-size: 30px;
+  margin: 0px 30px;
 }
